@@ -1,0 +1,81 @@
+body {
+    background-image: url(anh-media/background1.jpg) !important;
+    height: auto;
+    width: auto;
+}
+
+#menu {
+    height: 5.5em;
+    width: 100%;
+    margin: -10px 10px 0px -8px;
+    background-color: #371904;
+    position: fixed;
+}
+
+#menu img {
+    border-radius: 2em;
+    height: 5em;
+    width: 5em;
+    margin-top: 5px;
+    margin-left: 15px;
+    float: left;
+}
+
+#menu li {
+    width: 90px;
+    height: 40px;
+    line-height: 100px;
+    margin-left: 50px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+#menu a:hover {
+    background: rgb(202, 201, 201);
+    color: rgb(189, 141, 9);
+    height: 102px;
+    width: 120px;
+}
+
+input[type="text"] {
+    width: 120px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 2em;
+    outline: none;
+    padding: 12px 14px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 0px;
+}
+
+input[type="text"]:focus {
+    width: 250px;
+    transition: 0.3s;
+}
+
+.button {
+    float: right;
+    text-align: center;
+    margin-right: 9em;
+    margin-top: -28px;
+    height: 43px;
+    width: 40px;
+    border-radius: 3em;
+    border: none;
+    border-color: white;
+    background-color: white;
+}
+
+.logo {
+    height: 4em;
+    width: 3.8em;
+    margin-left: 1px;
+}
