@@ -1,0 +1,45 @@
+#banner {
+    width: 100vmax;
+    height: 600px;
+    background-image: url(anh/boi-loi.jpg);
+    color: white;
+    margin-left: -10px;
+    margin-top: -2em;
+}
+
+#inbanner {
+    height: 600px;
+    width: 500px;
+    margin-left: 90px;
+    background: rgb(235, 34, 79);
+    background: linear-gradient(186deg, rgba(235, 34, 79, 0.796153007101278) 40%, rgba(229, 7, 236, 1) 100%);
+}
+
+button {
+    border: none;
+    padding: 15px 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.chubanner {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 70px 40px 0px 30px;
+}
+
+.chubanner2 {
+    padding: 0px 90px 0px 30px;
+}
+
+.chubanner3 {
+    padding: 0px 110px 0px 30px;
+}
+
+.thumb {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
