@@ -1,17 +1,22 @@
 #wp-content {
     height: auto;
     width: auto;
-    margin: 15px auto;
+    margin: 100px auto;
 }
 
 #banner {
     height: 550px;
-    width: auto;
-    background-image: url(picture/Phuc_Menswear.com.png);
+    width: 1300px;
+    /* background-image: url(picture/Phuc_Menswear.com.png);
     background-size: cover;
     background-position-y: -115px;
-    background-position-x: 15px;
-    margin-top: 100px;
+    background-position-x: 15px; */
+    margin: 0px auto;
+}
+
+#banner img {
+    width: 1300px;
+    height: 550px;
 }
 
 #search {

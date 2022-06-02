@@ -68,7 +68,9 @@
             </nav>
         </div>
         <div id="wp-content">
-            <div id="banner"></div>
+            <div id="banner">
+                <img src="picture/Phuc_Menswear.com.png" id="img" alt="">
+            </div>
             <div id="search">
                 <nav class="item-search">
                     <ul id="word-search">
@@ -421,24 +423,20 @@
             //Tìm các li có sub-menu và thêm vào class has-child
             $('.sub-menu').parent('li').addClass('has-child');
         });
+
+
+        var index = 1;
+        Image = function() {
+            var imgs = ["picture/Phuc_Menswear.com.png", "picture/login1.jpg", "picture/vechungtoi.jpg"];
+            document.getElementById('img').src = imgs[index];
+            index++;
+            if (index == 3) {
+                index = 0;
+            }
+        }
+        setInterval(Image, 1700);
     </script>
-    <!-- <script>
-        $(document).ready(function() {
-            //selector đến menu cần làm việc
-            var TopFixMenu = $(".container");
-            // dùng sự kiện cuộn chuột để bắt thông tin đã cuộn được chiều dài là bao nhiêu.
-            $(window).scroll(function() {
-                // Nếu cuộn được hơn 150px rồi
-                if ($(this).scrollTop() > 200) {
-                    // Tiến hành show menu ra   
-                    TopFixMenu.show();
-                } else {
-                    // Ngược lại, nhỏ hơn 150px thì hide menu đi.
-                    TopFixMenu.hide();
-                }
-            });
-        });
-    </script> -->
+
 </body>
 
 </html>
